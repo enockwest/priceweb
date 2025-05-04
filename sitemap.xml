@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://enockwest.github.io/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://enockwest.github.io/mypizza15/</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://enockwest.github.io/mylounge15/</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://enockwest.github.io/mybakery15/</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://enockwest.github.io/myrest25/</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://enockwest.github.io/mylounge25/</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://enockwest.github.io/mycafe25/</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://enockwest.github.io/myice35/</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://enockwest.github.io/mycoffee35/</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://enockwest.github.io/myelitebites35/</loc>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
