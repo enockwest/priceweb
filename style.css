@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 1rem;
+  }
+  
+  /* Header */
+  header {
+    background-color: #002244;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+  /* Pricing container grid */
+  .pricing-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem 0;
+  }
+  
+  /* Individual card styling */
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    color: #002244;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card h3,
+  .card p {
+    margin: 0.3rem 0;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding-left: 1rem;
+  }
+  
+  .card ul li {
+    margin: 0.5rem 0;
+  }
+  
+  .card ul li a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .card ul li a:hover {
+    color: #005299;
+  }
+  
+  /* Highlighted text styles */
+  .h3 {
+    color: red;
+    text-decoration: line-through;
+  }
+  
+  .price {
+    color: green;
+    font-weight: bold;
+  }
+  
+  /* Button style */
+  .btn > h2{
+    background-color: #002244;
+    color: white;
+    text-align: center;
+    padding: 0.7rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+  }
+  
+  /* WhatsApp Button */
+  .whatsapp-button {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #25D366;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #1ebe5b;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #002244;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header {
+      font-size: 1.5rem;
+      padding: 1.5rem 1rem;
+    }
+  
+    .card {
+      padding: 1rem;
+    }
+    .card:hover{
+        box-shadow:  2px 2px 2px;
+    }
+  
+    .whatsapp-button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      font-size: 1.2rem;
+      padding: 1rem;
+    }
+  
+    .pricing-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .card h2 {
+      font-size: 1.1rem;
+    }
+  
+    .btn h2 {
+      font-size: 1rem;
+    }
+  
+    .whatsapp-button {
+      padding: 0.5rem;
+      font-size: 0.9rem;
+    }
+  }
