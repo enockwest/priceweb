@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://enockwest.github.io/priceweb/sitemap.xml
